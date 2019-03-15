@@ -14,6 +14,8 @@
 		BA5C9CA5222C730E004CE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */; };
 		BA5C9CB0222C730E004CE648 /* VacationPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */; };
 		BA5C9CBB222C730E004CE648 /* VacationPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CBA222C730E004CE648 /* VacationPalUITests.swift */; };
+		BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */; };
+		BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CCA222C7450004CE648 /* ResortStay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BA5C9CB6222C730E004CE648 /* VacationPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5C9CBA222C730E004CE648 /* VacationPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationPalUITests.swift; sourceTree = "<group>"; };
 		BA5C9CBC222C730E004CE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayTests.swift; sourceTree = "<group>"; };
+		BA5C9CCA222C7450004CE648 /* ResortStay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				BA5C9C9A222C730C004CE648 /* AppDelegate.swift */,
 				BA5C9C9C222C730C004CE648 /* ViewController.swift */,
+				BA5C9CCA222C7450004CE648 /* ResortStay.swift */,
 				BA5C9C9E222C730C004CE648 /* Main.storyboard */,
 				BA5C9CA1222C730E004CE648 /* Assets.xcassets */,
 				BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */,
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */,
+				BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */,
 				BA5C9CB1222C730E004CE648 /* Info.plist */,
 			);
 			path = VacationPalTests;
@@ -258,6 +264,7 @@
 			files = (
 				BA5C9C9D222C730C004CE648 /* ViewController.swift in Sources */,
 				BA5C9C9B222C730C004CE648 /* AppDelegate.swift in Sources */,
+				BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5C9CB0222C730E004CE648 /* VacationPalTests.swift in Sources */,
+				BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
