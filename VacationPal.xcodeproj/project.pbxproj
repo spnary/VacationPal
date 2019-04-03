@@ -168,9 +168,11 @@
 				TargetAttributes = {
 					BA5C9C96222C730C004CE648 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					BA5C9CAA222C730E004CE648 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = BA5C9C96222C730C004CE648;
 					};
 				};
@@ -387,7 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.VacationPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -405,7 +407,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.VacationPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -425,7 +427,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.VacationPalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VacationPal.app/VacationPal";
 			};
@@ -446,7 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.VacationPalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VacationPal.app/VacationPal";
 			};
