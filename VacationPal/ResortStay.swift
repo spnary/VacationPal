@@ -54,8 +54,17 @@ struct ResortStay {
             throw ResortStayError.stayTooShort
         }
     }
+
+}
+
+extension ResortStay {
+    func bookingWindow11Months() -> Date? {
+        return calendar.date(byAdding: DateComponents(month: -11), to: checkIn)
+    }
     
-    
+    func bookingWindow7Months() -> Date? {
+        return calendar.date(byAdding: DateComponents(month: -7), to: checkIn)
+    }
 }
 
 enum ResortStayError: Error {

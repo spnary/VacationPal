@@ -14,8 +14,6 @@ class ResortStayTests: XCTestCase {
     let calendar = Calendar(identifier: .gregorian)
     
     override func setUp() {
-        
-        
         let checkIn = DateComponents(year: 2019, month: 3, day: 14)
         let checkOut = DateComponents(year: 2019, month: 3, day: 15)
         stay = try! ResortStay(checkIn: checkIn, checkOut: checkOut)
@@ -102,6 +100,29 @@ class ResortStayTests: XCTestCase {
         XCTAssertThrowsError(try ResortStay(checkIn: checkInComps, checkOut: checkOutComps)) { error in
             XCTAssertEqual(error as! ResortStayError, ResortStayError.stayTooShort, "A Stay Too Short error should be thrown if stay is less than one night")
         }
+    }
+    
+    func test11MonthWindow() {
+        let checkInComps = DateComponents(year: 2020, month: 3, day: 10)
+        let checkOutComps = DateComponents(year: 2020, month: 3, day: 15)
+        let stay = try! ResortStay(checkIn: checkInComps, checkOut: checkOutComps)
+        let elevenMonths = DateComponents(year: 2019, month: 4, day: 10)
+        XCTAssertNotNil(stay.bookingWindow11Months())
+        XCTAssertEqual(stay.bookingWindow11Months(), gregorianDate(from: elevenMonths))
+    }
+    
+    func test7MonthWindow() {
+        let checkInComps = DateComponents(year: 2020, month: 3, day: 10)
+        let checkOutComps = DateComponents(year: 2020, month: 3, day: 15)
+        let stay = try! ResortStay(checkIn: checkInComps, checkOut: checkOutComps)
+        let sevenMonths = DateComponents(year: 2019, month: 8, day: 10)
+        XCTAssertNotNil(stay.bookingWindow7Months())
+        XCTAssertEqual(stay.bookingWindow7Months(), gregorianDate(from: sevenMonths))
+    }
+    
+    func gregorianDate(from components: DateComponents) -> Date? {
+        let calendar = Calendar(identifier: .gregorian)
+        return calendar.date(from: components)
     }
 
 }
