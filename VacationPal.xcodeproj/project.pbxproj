@@ -8,25 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BA5C9C9B222C730C004CE648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9C9A222C730C004CE648 /* AppDelegate.swift */; };
-		BA5C9C9D222C730C004CE648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9C9C222C730C004CE648 /* ViewController.swift */; };
-		BA5C9CA0222C730C004CE648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9C9E222C730C004CE648 /* Main.storyboard */; };
 		BA5C9CA2222C730E004CE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9CA1222C730E004CE648 /* Assets.xcassets */; };
 		BA5C9CA5222C730E004CE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */; };
 		BA5C9CB0222C730E004CE648 /* VacationPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */; };
-		BA5C9CBB222C730E004CE648 /* VacationPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CBA222C730E004CE648 /* VacationPalUITests.swift */; };
 		BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */; };
 		BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CCA222C7450004CE648 /* ResortStay.swift */; };
+		BA8A0F0622543F5D0012F204 /* ResortStays.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		BA5C9CAC222C730E004CE648 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA5C9C8F222C730C004CE648 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA5C9C96222C730C004CE648;
-			remoteInfo = VacationPal;
-		};
-		BA5C9CB7222C730E004CE648 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BA5C9C8F222C730C004CE648 /* Project object */;
 			proxyType = 1;
@@ -38,19 +29,16 @@
 /* Begin PBXFileReference section */
 		BA5C9C97222C730C004CE648 /* VacationPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacationPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5C9C9A222C730C004CE648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA5C9C9C222C730C004CE648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA5C9C9F222C730C004CE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA5C9CA1222C730E004CE648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5C9CA4222C730E004CE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA5C9CA6222C730E004CE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5C9CAB222C730E004CE648 /* VacationPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationPalTests.swift; sourceTree = "<group>"; };
 		BA5C9CB1222C730E004CE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA5C9CB6222C730E004CE648 /* VacationPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA5C9CBA222C730E004CE648 /* VacationPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationPalUITests.swift; sourceTree = "<group>"; };
 		BA5C9CBC222C730E004CE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayTests.swift; sourceTree = "<group>"; };
 		BA5C9CCA222C7450004CE648 /* ResortStay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStay.swift; sourceTree = "<group>"; };
+		BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResortStays.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +50,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BA5C9CA8222C730E004CE648 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA5C9CB3222C730E004CE648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,7 +74,6 @@
 			children = (
 				BA5C9C97222C730C004CE648 /* VacationPal.app */,
 				BA5C9CAB222C730E004CE648 /* VacationPalTests.xctest */,
-				BA5C9CB6222C730E004CE648 /* VacationPalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				BA5C9C9A222C730C004CE648 /* AppDelegate.swift */,
-				BA5C9C9C222C730C004CE648 /* ViewController.swift */,
 				BA5C9CCA222C7450004CE648 /* ResortStay.swift */,
-				BA5C9C9E222C730C004CE648 /* Main.storyboard */,
+				BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */,
 				BA5C9CA1222C730E004CE648 /* Assets.xcassets */,
 				BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */,
 				BA5C9CA6222C730E004CE648 /* Info.plist */,
@@ -125,7 +104,6 @@
 		BA5C9CB9222C730E004CE648 /* VacationPalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BA5C9CBA222C730E004CE648 /* VacationPalUITests.swift */,
 				BA5C9CBC222C730E004CE648 /* Info.plist */,
 			);
 			path = VacationPalUITests;
@@ -169,24 +147,6 @@
 			productReference = BA5C9CAB222C730E004CE648 /* VacationPalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BA5C9CB5222C730E004CE648 /* VacationPalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA5C9CC5222C730E004CE648 /* Build configuration list for PBXNativeTarget "VacationPalUITests" */;
-			buildPhases = (
-				BA5C9CB2222C730E004CE648 /* Sources */,
-				BA5C9CB3222C730E004CE648 /* Frameworks */,
-				BA5C9CB4222C730E004CE648 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA5C9CB8222C730E004CE648 /* PBXTargetDependency */,
-			);
-			name = VacationPalUITests;
-			productName = VacationPalUITests;
-			productReference = BA5C9CB6222C730E004CE648 /* VacationPalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,10 +161,6 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					BA5C9CAA222C730E004CE648 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = BA5C9C96222C730C004CE648;
-					};
-					BA5C9CB5222C730E004CE648 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = BA5C9C96222C730C004CE648;
 					};
@@ -225,7 +181,6 @@
 			targets = (
 				BA5C9C96222C730C004CE648 /* VacationPal */,
 				BA5C9CAA222C730E004CE648 /* VacationPalTests */,
-				BA5C9CB5222C730E004CE648 /* VacationPalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +190,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8A0F0622543F5D0012F204 /* ResortStays.storyboard in Resources */,
 				BA5C9CA5222C730E004CE648 /* LaunchScreen.storyboard in Resources */,
 				BA5C9CA2222C730E004CE648 /* Assets.xcassets in Resources */,
-				BA5C9CA0222C730C004CE648 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BA5C9CA9222C730E004CE648 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA5C9CB4222C730E004CE648 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA5C9C9D222C730C004CE648 /* ViewController.swift in Sources */,
 				BA5C9C9B222C730C004CE648 /* AppDelegate.swift in Sources */,
 				BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */,
 			);
@@ -277,14 +224,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA5C9CB2222C730E004CE648 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA5C9CBB222C730E004CE648 /* VacationPalUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,22 +232,9 @@
 			target = BA5C9C96222C730C004CE648 /* VacationPal */;
 			targetProxy = BA5C9CAC222C730E004CE648 /* PBXContainerItemProxy */;
 		};
-		BA5C9CB8222C730E004CE648 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA5C9C96222C730C004CE648 /* VacationPal */;
-			targetProxy = BA5C9CB7222C730E004CE648 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA5C9C9E222C730C004CE648 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA5C9C9F222C730C004CE648 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -514,46 +440,6 @@
 			};
 			name = Release;
 		};
-		BA5C9CC6222C730E004CE648 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JHCNH68BKK;
-				INFOPLIST_FILE = VacationPalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.VacationPalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VacationPal;
-			};
-			name = Debug;
-		};
-		BA5C9CC7222C730E004CE648 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JHCNH68BKK;
-				INFOPLIST_FILE = VacationPalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stephenpnary.VacationPalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VacationPal;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,15 +466,6 @@
 			buildConfigurations = (
 				BA5C9CC3222C730E004CE648 /* Debug */,
 				BA5C9CC4222C730E004CE648 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA5C9CC5222C730E004CE648 /* Build configuration list for PBXNativeTarget "VacationPalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA5C9CC6222C730E004CE648 /* Debug */,
-				BA5C9CC7222C730E004CE648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
