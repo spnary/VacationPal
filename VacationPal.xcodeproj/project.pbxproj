@@ -14,6 +14,9 @@
 		BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */; };
 		BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CCA222C7450004CE648 /* ResortStay.swift */; };
 		BA8A0F0622543F5D0012F204 /* ResortStays.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */; };
+		BA8A0F08225444A40012F204 /* ResortStaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0F07225444A40012F204 /* ResortStaysViewController.swift */; };
+		BA8A0F0A225447B10012F204 /* ResortStayAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0F09225447B10012F204 /* ResortStayAddViewController.swift */; };
+		BA8A0F0C225447CF0012F204 /* ResortStayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0F0B225447CF0012F204 /* ResortStayDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 		BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayTests.swift; sourceTree = "<group>"; };
 		BA5C9CCA222C7450004CE648 /* ResortStay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStay.swift; sourceTree = "<group>"; };
 		BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResortStays.storyboard; sourceTree = "<group>"; };
+		BA8A0F07225444A40012F204 /* ResortStaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStaysViewController.swift; sourceTree = "<group>"; };
+		BA8A0F09225447B10012F204 /* ResortStayAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayAddViewController.swift; sourceTree = "<group>"; };
+		BA8A0F0B225447CF0012F204 /* ResortStayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 			children = (
 				BA5C9C9A222C730C004CE648 /* AppDelegate.swift */,
 				BA5C9CCA222C7450004CE648 /* ResortStay.swift */,
+				BA8A0F07225444A40012F204 /* ResortStaysViewController.swift */,
+				BA8A0F09225447B10012F204 /* ResortStayAddViewController.swift */,
+				BA8A0F0B225447CF0012F204 /* ResortStayDetailViewController.swift */,
 				BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */,
 				BA5C9CA1222C730E004CE648 /* Assets.xcassets */,
 				BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */,
@@ -210,8 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8A0F0A225447B10012F204 /* ResortStayAddViewController.swift in Sources */,
+				BA8A0F08225444A40012F204 /* ResortStaysViewController.swift in Sources */,
 				BA5C9C9B222C730C004CE648 /* AppDelegate.swift in Sources */,
 				BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */,
+				BA8A0F0C225447CF0012F204 /* ResortStayDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
