@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2A35A2225A5A610032DEFF /* ResortStayDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A35A1225A5A610032DEFF /* ResortStayDetailViewModelTests.swift */; };
+		BA2A35A4225A5B000032DEFF /* ResortStayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A35A3225A5B000032DEFF /* ResortStayDetailViewModel.swift */; };
 		BA5C9C9B222C730C004CE648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9C9A222C730C004CE648 /* AppDelegate.swift */; };
 		BA5C9CA2222C730E004CE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9CA1222C730E004CE648 /* Assets.xcassets */; };
 		BA5C9CA5222C730E004CE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA2A35A1225A5A610032DEFF /* ResortStayDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayDetailViewModelTests.swift; sourceTree = "<group>"; };
+		BA2A35A3225A5B000032DEFF /* ResortStayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayDetailViewModel.swift; sourceTree = "<group>"; };
 		BA5C9C97222C730C004CE648 /* VacationPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacationPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5C9C9A222C730C004CE648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5C9CA1222C730E004CE648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 				BA8A0F07225444A40012F204 /* ResortStaysViewController.swift */,
 				BA8A0F09225447B10012F204 /* ResortStayAddViewController.swift */,
 				BA8A0F0B225447CF0012F204 /* ResortStayDetailViewController.swift */,
+				BA2A35A3225A5B000032DEFF /* ResortStayDetailViewModel.swift */,
 				BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */,
 				BA5C9CA1222C730E004CE648 /* Assets.xcassets */,
 				BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */,
@@ -105,6 +110,7 @@
 			children = (
 				BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */,
 				BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */,
+				BA2A35A1225A5A610032DEFF /* ResortStayDetailViewModelTests.swift */,
 				BA5C9CB1222C730E004CE648 /* Info.plist */,
 			);
 			path = VacationPalTests;
@@ -226,6 +232,7 @@
 				BA5C9C9B222C730C004CE648 /* AppDelegate.swift in Sources */,
 				BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */,
 				BA8A0F0C225447CF0012F204 /* ResortStayDetailViewController.swift in Sources */,
+				BA2A35A4225A5B000032DEFF /* ResortStayDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2A35A2225A5A610032DEFF /* ResortStayDetailViewModelTests.swift in Sources */,
 				BA5C9CB0222C730E004CE648 /* VacationPalTests.swift in Sources */,
 				BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */,
 			);
