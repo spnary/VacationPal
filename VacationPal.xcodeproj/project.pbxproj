@@ -12,7 +12,6 @@
 		BA5C9C9B222C730C004CE648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9C9A222C730C004CE648 /* AppDelegate.swift */; };
 		BA5C9CA2222C730E004CE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9CA1222C730E004CE648 /* Assets.xcassets */; };
 		BA5C9CA5222C730E004CE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5C9CA3222C730E004CE648 /* LaunchScreen.storyboard */; };
-		BA5C9CB0222C730E004CE648 /* VacationPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */; };
 		BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */; };
 		BA5C9CCB222C7450004CE648 /* ResortStay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C9CCA222C7450004CE648 /* ResortStay.swift */; };
 		BA8A0F0622543F5D0012F204 /* ResortStays.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8A0F0522543F5D0012F204 /* ResortStays.storyboard */; };
@@ -40,7 +39,6 @@
 		BA5C9CA4222C730E004CE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA5C9CA6222C730E004CE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5C9CAB222C730E004CE648 /* VacationPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationPalTests.swift; sourceTree = "<group>"; };
 		BA5C9CB1222C730E004CE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5C9CBC222C730E004CE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayTests.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 		BA5C9CAE222C730E004CE648 /* VacationPalTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA5C9CAF222C730E004CE648 /* VacationPalTests.swift */,
 				BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */,
 				BA2A35A1225A5A610032DEFF /* ResortStayDetailViewModelTests.swift */,
 				BA5C9CB1222C730E004CE648 /* Info.plist */,
@@ -241,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2A35A2225A5A610032DEFF /* ResortStayDetailViewModelTests.swift in Sources */,
-				BA5C9CB0222C730E004CE648 /* VacationPalTests.swift in Sources */,
 				BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
