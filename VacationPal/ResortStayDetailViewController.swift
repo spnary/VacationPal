@@ -9,22 +9,25 @@
 import UIKit
 
 class ResortStayDetailViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var checkInDateLabel: UILabel?
+    @IBOutlet weak var checkOutDateLabel: UILabel?
+    @IBOutlet weak var nightsLabel: UILabel?
+    @IBOutlet weak var elevenMonthWindowLabel: UILabel?
+    @IBOutlet weak var sevenMonthWindowLabel: UILabel?
+    
+    var viewModel: ResortStayDetailViewModel? {
+        didSet {
+            updateViewFromModel()
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func updateViewFromModel() {
+        checkInDateLabel?.text = viewModel?.checkIn
+        checkOutDateLabel?.text = viewModel?.checkOut
+        nightsLabel?.text = viewModel?.nights
+        elevenMonthWindowLabel?.text = viewModel?.elevenMonthWindow
+        sevenMonthWindowLabel?.text = viewModel?.sevenMonthWindow
     }
-    */
 
 }

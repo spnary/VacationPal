@@ -29,7 +29,7 @@
         <!--Resort Stays-->
         <scene sceneID="T7G-xm-Wkx">
             <objects>
-                <viewController id="01X-xq-dAw" customClass="ResortStaysViewController" customModule="VacationPal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResortStays" id="01X-xq-dAw" customClass="ResortStaysViewController" customModule="VacationPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zp4-bp-at8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="-252" y="-50"/>
         </scene>
-        <!--View Controller-->
+        <!--Resort Stay Detail View Controller-->
         <scene sceneID="Izw-Gw-FL1">
             <objects>
-                <viewController id="NqO-05-bsY" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResortStayDetail" id="NqO-05-bsY" customClass="ResortStayDetailViewController" customModule="VacationPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ss-dW-Vqi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,6 +155,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pyH-en-8c7"/>
                     </view>
+                    <connections>
+                        <outlet property="checkInDateLabel" destination="78F-mb-lAA" id="gjF-ry-jyY"/>
+                        <outlet property="checkOutDateLabel" destination="pRK-jw-ALP" id="lYP-OB-E3d"/>
+                        <outlet property="elevenMonthWindowLabel" destination="zkq-qw-VJN" id="FgX-Sw-iZm"/>
+                        <outlet property="nightsLabel" destination="F7B-pN-vWV" id="dmG-ND-zQM"/>
+                        <outlet property="sevenMonthWindowLabel" destination="JLz-NB-ZVu" id="V9W-UZ-f4I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="no1-ku-f0E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -163,7 +170,7 @@
         <!--View Controller-->
         <scene sceneID="vIR-oe-6J5">
             <objects>
-                <viewController id="2Zg-dl-Ah5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResortStayAdd" id="2Zg-dl-Ah5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iYZ-gf-TJw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

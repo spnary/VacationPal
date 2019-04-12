@@ -18,6 +18,7 @@
 		BA8A0F08225444A40012F204 /* ResortStaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0F07225444A40012F204 /* ResortStaysViewController.swift */; };
 		BA8A0F0A225447B10012F204 /* ResortStayAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0F09225447B10012F204 /* ResortStayAddViewController.swift */; };
 		BA8A0F0C225447CF0012F204 /* ResortStayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0F0B225447CF0012F204 /* ResortStayDetailViewController.swift */; };
+		BA980FC1225D732300C6219C /* ResortStayDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA980FC0225D732300C6219C /* ResortStayDetailViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA8A0F07225444A40012F204 /* ResortStaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStaysViewController.swift; sourceTree = "<group>"; };
 		BA8A0F09225447B10012F204 /* ResortStayAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayAddViewController.swift; sourceTree = "<group>"; };
 		BA8A0F0B225447CF0012F204 /* ResortStayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayDetailViewController.swift; sourceTree = "<group>"; };
+		BA980FC0225D732300C6219C /* ResortStayDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortStayDetailViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				BA5C9CC8222C73E6004CE648 /* ResortStayTests.swift */,
 				BA2A35A1225A5A610032DEFF /* ResortStayDetailViewModelTests.swift */,
+				BA980FC0225D732300C6219C /* ResortStayDetailViewControllerTests.swift */,
 				BA5C9CB1222C730E004CE648 /* Info.plist */,
 			);
 			path = VacationPalTests;
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA980FC1225D732300C6219C /* ResortStayDetailViewControllerTests.swift in Sources */,
 				BA2A35A2225A5A610032DEFF /* ResortStayDetailViewModelTests.swift in Sources */,
 				BA5C9CC9222C73E6004CE648 /* ResortStayTests.swift in Sources */,
 			);
