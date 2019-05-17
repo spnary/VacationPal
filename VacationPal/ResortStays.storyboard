@@ -167,10 +167,10 @@
             </objects>
             <point key="canvasLocation" x="717.39130434782612" y="295.98214285714283"/>
         </scene>
-        <!--View Controller-->
+        <!--Resort Stay Add View Controller-->
         <scene sceneID="vIR-oe-6J5">
             <objects>
-                <viewController storyboardIdentifier="ResortStayAdd" id="2Zg-dl-Ah5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResortStayAdd" id="2Zg-dl-Ah5" customClass="ResortStayAddViewController" customModule="VacationPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iYZ-gf-TJw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,6 +203,10 @@
                                 <rect key="frame" x="173" y="630" width="68" height="30"/>
                                 <state key="normal" title="Save Stay"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCP-BO-ofP">
+                                <rect key="frame" x="183" y="684" width="48" height="30"/>
+                                <state key="normal" title="Cancel"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -210,10 +214,12 @@
                             <constraint firstItem="rbH-aB-XM4" firstAttribute="centerX" secondItem="iYZ-gf-TJw" secondAttribute="centerX" id="2DA-Xf-uOY"/>
                             <constraint firstItem="SsN-RD-AJP" firstAttribute="top" secondItem="kAf-Nu-AV8" secondAttribute="bottom" constant="16" id="3Em-rw-WWk"/>
                             <constraint firstItem="SsN-RD-AJP" firstAttribute="leading" secondItem="Un5-3g-SH5" secondAttribute="leading" id="Ajt-kK-sJa"/>
+                            <constraint firstItem="sCP-BO-ofP" firstAttribute="top" secondItem="rbH-aB-XM4" secondAttribute="bottom" constant="24" id="DYo-Mu-umD"/>
                             <constraint firstItem="Fe7-ij-uuN" firstAttribute="top" secondItem="Un5-3g-SH5" secondAttribute="top" constant="16" id="INe-LY-MkV"/>
                             <constraint firstItem="rbH-aB-XM4" firstAttribute="top" secondItem="SsN-RD-AJP" secondAttribute="bottom" constant="32" id="aC2-el-rxG"/>
                             <constraint firstItem="PpW-cj-iyt" firstAttribute="leading" secondItem="Un5-3g-SH5" secondAttribute="leading" id="f6B-6n-OPy"/>
                             <constraint firstItem="SsN-RD-AJP" firstAttribute="trailing" secondItem="Un5-3g-SH5" secondAttribute="trailing" id="h3R-tQ-omB"/>
+                            <constraint firstItem="sCP-BO-ofP" firstAttribute="centerX" secondItem="iYZ-gf-TJw" secondAttribute="centerX" id="lPO-1P-kyW"/>
                             <constraint firstItem="PpW-cj-iyt" firstAttribute="top" secondItem="Fe7-ij-uuN" secondAttribute="bottom" constant="16" id="sRs-tr-uEr"/>
                             <constraint firstItem="PpW-cj-iyt" firstAttribute="trailing" secondItem="Un5-3g-SH5" secondAttribute="trailing" id="ujB-kz-iwt"/>
                             <constraint firstItem="kAf-Nu-AV8" firstAttribute="leading" secondItem="Un5-3g-SH5" secondAttribute="leading" constant="16" id="vC4-vS-Xa0"/>
