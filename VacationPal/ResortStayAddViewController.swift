@@ -17,6 +17,8 @@ class ResortStayAddViewController: UIViewController {
         super.viewDidLoad()
         let calendar = Calendar(identifier: .gregorian)
         guard let tomorrow = calendar.date(byAdding: DateComponents(day: 1), to: Date()) else { return }
+        checkInPicker?.minimumDate = Date()
+        checkOutPicker?.minimumDate = tomorrow
         checkOutPicker?.date = tomorrow
     }
     
