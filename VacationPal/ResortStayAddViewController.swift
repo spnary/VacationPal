@@ -12,15 +12,29 @@ class ResortStayAddViewController: UIViewController {
     
     @IBOutlet weak var checkInPicker: UIDatePicker?
     @IBOutlet weak var checkOutPicker: UIDatePicker?
+    
+    let calendar = Calendar(identifier: .gregorian)
+    var stay: ResortStay?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let calendar = Calendar(identifier: .gregorian)
         guard let tomorrow = calendar.date(byAdding: DateComponents(day: 1), to: Date()) else { return }
         checkInPicker?.minimumDate = Date()
         checkOutPicker?.minimumDate = tomorrow
         checkOutPicker?.date = tomorrow
     }
     
+    @IBAction func dateUpdated(sender: UIDatePicker) {
+        guard let checkIn = checkInPicker?.date,
+            let checkOut = checkOutPicker?.date else { return }
+        stay = stayFromDates(checkIn: checkIn, checkOut: checkOut)
+    }
+    
+    func stayFromDates(checkIn: Date, checkOut: Date) -> ResortStay? {
+        let checkInComps = calendar.dateComponents([.year, .month, .day], from: checkIn)
+        let checkOutComps = calendar.dateComponents([.year, .month, .day], from: checkOut)
+
+        return try? ResortStay(checkIn: checkInComps, checkOut: checkOutComps)
+    }
 
 }

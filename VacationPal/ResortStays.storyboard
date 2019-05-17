@@ -180,12 +180,18 @@
                                 <date key="date" timeIntervalSinceReferenceDate="575948374.64789903">
                                     <!--2019-04-03 01:39:34 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="dateUpdatedWithSender:" destination="2Zg-dl-Ah5" eventType="valueChanged" id="od7-PC-Mh5"/>
+                                </connections>
                             </datePicker>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="SsN-RD-AJP">
                                 <rect key="frame" x="0.0" y="382" width="414" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="575948404.90107501">
                                     <!--2019-04-03 01:40:04 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="dateUpdatedWithSender:" destination="2Zg-dl-Ah5" eventType="valueChanged" id="b0M-hq-W7a"/>
+                                </connections>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe7-ij-uuN">
                                 <rect key="frame" x="16" y="60" width="67" height="21"/>
