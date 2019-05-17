@@ -9,22 +9,16 @@
 import UIKit
 
 class ResortStayAddViewController: UIViewController {
+    
+    @IBOutlet weak var checkInPicker: UIDatePicker?
+    @IBOutlet weak var checkOutPicker: UIDatePicker?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let calendar = Calendar(identifier: .gregorian)
+        guard let tomorrow = calendar.date(byAdding: DateComponents(day: 1), to: Date()) else { return }
+        checkOutPicker?.date = tomorrow
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
